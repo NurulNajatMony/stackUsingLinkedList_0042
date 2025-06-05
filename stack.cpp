@@ -51,3 +51,10 @@ public:
         delete temp;
     }
 
+    // Peek operation: Retrieve all elements from the top to bottom
+    void peek() {
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+        } else {
+            node *current = top;
+  
