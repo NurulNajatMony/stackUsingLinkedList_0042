@@ -58,3 +58,11 @@ public:
         } else {
             node *current = top;
   
+          cout << "Stack contents (top to bottom):" << endl;
+            while (current != NULL) {
+                cout << current->data << endl;
+                current = current->next;
+            }
+        }
+    }
+};
