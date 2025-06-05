@@ -30,4 +30,6 @@ public:
         newNode->next = top;
         top = newNode;
     
- 
+     cout << "Pushed value: " << value << endl;
+        return value;
+    }
