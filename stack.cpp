@@ -8,4 +8,11 @@ public:
     int data;
     node *next;
 
-    
+   node() { // Ganti "Node" menjadi "node"
+        next = NULL;
+    }
+};
+
+
+
+ 
