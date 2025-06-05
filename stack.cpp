@@ -33,3 +33,9 @@ public:
      cout << "Pushed value: " << value << endl;
         return value;
     }
+
+    // IsEmpty operation: Check if the stack is empty
+    bool isEmpty() {
+        return top == NULL;
+    }
+
