@@ -23,5 +23,12 @@ public:
         top = NULL; // Initialize the stack with a null top pointer
     }
 
-  
+    // Push operation: Insert an element onto the top of the stack
+    int push(int value) {
+        node *newNode = new node(); // Perbaiki "Node" menjadi "node"
+        newNode->data = value;
+        newNode->next = top;
+        top = newNode;
+ 
+
  
